@@ -1,0 +1,1 @@
+videoURL:'//youtu.be/SSZV5ma5PvQ',containment:'.main .bg-video',autoPlay:false, stopMovieOnBlur:false, mute:true, opacity:1, quality: 'fhd1080'
