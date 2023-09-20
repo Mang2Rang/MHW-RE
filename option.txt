@@ -1,0 +1,12 @@
+<메뉴바 borderline속성>
+display: inline-block;
+    transition: all .4s;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 4px;
+    left: 50%;
+    margin-left: -16px;
