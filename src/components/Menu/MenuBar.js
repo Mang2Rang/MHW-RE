@@ -11,13 +11,16 @@ const BTNAVI = styled.div`
   bottom: 10px;
   left: 50%;
   z-index: 998;
+  display: flex;
+  cursor: pointer;
 `;
 const Title = styled.div`
   position: absolute;
+  display: flex;
   font-size: 12px;
   top: 13px;
   left: 50%;
-  margin-left: -18px;
+  margin-left: -15px;
   color: white;
 `;
 const Border1 = styled.span`
@@ -54,9 +57,14 @@ const Border2 = styled.span`
 `;
 
 export function MenuBar() {
+  function onClick() {
+    const a = 1;
+    console.log(a);
+  }
   return (
     <>
       <BTNAVI>
+        <div onClick={onClick}></div>
         <Title>Menu</Title>
         <Border1 />
         <Border2 />

@@ -6,7 +6,6 @@ import { MenuBar } from "./MenuBar";
 const Container = styled.div`
   width: 100vw;
   height: 100vh;
-  /* background-color: beige; */
   display: flex;
   position: relative;
 `;
@@ -27,10 +26,16 @@ const Img = styled.img`
 `;
 
 export function Home() {
+  function onClick(e) {
+    const a = 1;
+    console.log(a);
+  }
   return (
     <>
       <Container>
-        <MenuBar />
+        <div onClick={() => console.log("click")}>
+          <MenuBar />
+        </div>
         <Img src={mainImg}></Img>
         <PlayerWrapper>
           <ReactPlayer

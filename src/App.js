@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 import { Home } from "./components/Menu/Home";
+import { NavPage } from "./components/Menu/NavPage";
 
 const GlobalStyle = createGlobalStyle`
 *{
